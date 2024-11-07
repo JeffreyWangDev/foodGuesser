@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Food Matching Game</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet"> </head> <body>
+<div class="stall">
+    <div class="sign">
+      <h1>Match the Food to its Ingredients!</h1>
+    </div>
+    <div class="counter">
+
+            <div class="info-area">
+                <p id="timer"></p>
+                <p id="score">Score: 0</p>
+            </div>
+
+        <div id="game-area">
+            <div id="names-container"></div>
+            <div id="ingredients-container"></div>
+        </div>
+        <button id="check-button">Check Answers</button>
+        <div id="result-container">
+            <div id="result-box">
+                <p id="result"></p>
+                <button id="play-again">Play Again</button>
+            </div>
+        </div>
+    </div>
+    <div class="awning-left"></div>
+    <div class="awning-right"></div>
+    <div class="support-left"></div>
+    <div class="support-right"></div>
+
+</div>
+
+
+    <script src="{{ url_for('static',filename='script.js') }}"></script>
+</body>
+</html>
