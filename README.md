@@ -1,6 +1,7 @@
 # Food Guesser
 
 Food Guesser is an interactive web-based game where players match foods to their ingredients!
+![image](https://github.com/user-attachments/assets/f3fa41ae-1f26-4eb7-86b7-8927f64ce1f8)
 
 ## Features
 
